@@ -1,12 +1,14 @@
 function setup() {
     createCanvas(400, 400);
     noStroke();
+      background(0);
     fill(255, 0, 150);
 }
 
 function draw() {
-    background(0);
     if (mouseIsPressed) {
-        circle(width / 2, height / 2, width * 0.8);
+        circle(random(0,400),random(0,400),random(10,100));
     }
+   if (keyIsPressed){
+    background(0)};
 }
